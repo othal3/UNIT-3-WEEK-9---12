@@ -10,16 +10,16 @@
     background: green;
 }
 
-nav.nav :nth-child(even){
-    background: lightgreen;
-}
-
 main .blog-post:first-of-type{
     background-color: black;
 }
 
-main .blog-post:first-of-type hr{
+.col-md-8 .blog-post:first-of-type hr{
     background-color: red;
+}
+
+nav.nav :nth-child(even){
+    background: lightgreen;
 }
 
 aside ol.list-unstyled.mb-0{

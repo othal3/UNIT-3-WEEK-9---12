@@ -8,3 +8,10 @@ for (let link of document.querySelectorAll(".stretched-link"))
     this.closest(".col-md-6").remove;
     };
 
+for (let element of authors) {
+    element.onmouseover = function(){
+        alert(element.textContent)
+    }
+    
+}
+
