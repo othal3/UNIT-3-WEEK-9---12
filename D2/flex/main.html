@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div class="navButton"><span>Our Honey</span></div>
+            <div class="navButton"><span>Trace Hone</span></div>
+            <div class="navButtonShop"><img src="assets/logo.png" alt="logo"><span id="shop">SHOP</span></div>
+            <div class="navButton"><span>Facilities</span></div>
+            <div class="navButton"><span>Contacts</span></div>
+        </nav>
+    </header>
+    <main>
+        <section id="cards">
+            <div class="cardBox">
+                <div class="imgCardBox">
+                    <img src="assets/honey.jpg" alt="honey">
+                    <div id="info">
+                        <button class="cardButton" onclick="openInfo()">Scopri di più</button>
+                    </div>
+                </div>
+                <div class="textBox">
+                    <div class="infoBox">
+                        <div class="prodSpec">
+                            <h3>100% Bio Honey</h3>
+                            <p>italian, not treated</p>
+                        </div>
+                        <div class="prodPrice">
+                            7$/Kg
+                        </div>
+                    </div>
+                    <button class="cardButton" onclick="cart()">Add to cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="article">
+            <div class="article">
+                <div class="textAricle">
+                    <h2>Our delicious honey</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia doloremque dicta provident suscipit quae officia dolore. Esse laudantium pariatur cupiditate sequi voluptate neque commodi, molestiae nemo similique dolorum. Reprehenderit explicabo eos soluta cupiditate, similique nulla enim aliquid, laudantium dolores officiis nihil natus deserunt in. Eum maxime dignissimos doloribus accusamus, laborum sunt consectetur? Quisquam id atque voluptate ea quibusdam officia, quos hic a obcaecati deleniti asperiores tenetur temporibus optio tempora molestias exercitationem dolorem nulla animi illo ad accusantium corrupti delectus. Odio omnis eum fuga corrupti porro! Aspernatur iste eligendi ullam commodi officiis, beatae id tenetur quam voluptatem sunt, iure hic itaque.</p>
+                </div>
+                <img src="assets/honey.jpg" alt="honey">
+            </div>
+            <button id="close" onclick="closedInfo()">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
